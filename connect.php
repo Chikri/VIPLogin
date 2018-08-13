@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost', 'root', 'Rvm@i[9)0?~=');
+$connection = mysqli_connect("sql102.ezyro.com","ezyro_22563180","hackaa44","ezyro_22563180_user");
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }
